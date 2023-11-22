@@ -42,11 +42,13 @@ const Main = () => {
         <View
             style={{
                 flex: 1,
+                alignItems: 'center',
+                justifyContent: 'center',
                 paddingTop:
                     Platform.OS === 'ios' ? 0 : Constants.statusBarHeight
             }}
         >
-            <Text>Test text</Text>
+            <Text>YES You are Logged In</Text>
         </View>
     )
 }

@@ -3,15 +3,18 @@ import { StyleSheet, Text, View } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 
 import Main from './screens/MainComponent'
+import LoginScreen from './screens/LoginScreen'
+
+const loggedIn = true //temp for testing conditional, use redux later
 
 export default function App() {
     return (
         <NavigationContainer>
-            <Main />
+            {loggedIn ? <Main /> : <LoginScreen />}
         </NavigationContainer>
     )
 }
-
+//work with this later
 const styles = StyleSheet.create({
     container: {
         flex: 1,
