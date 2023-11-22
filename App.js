@@ -5,7 +5,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import Main from './screens/MainComponent'
 import LoginScreen from './screens/LoginScreen'
 
-const loggedIn = true //temp for testing conditional, use redux later
+const loggedIn = false //temp for testing conditional, use redux later
 
 export default function App() {
     return (
