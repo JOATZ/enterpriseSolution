@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "concurrently \"npm run serverStart\" \"expo start\"",
+    "start": "expo start",
+    "start-all": "concurrently \"npm run serverStart\" \"npm run expo start\"",
     "start-clear": "expo start -c",
     "android": "expo start --android",
     "ios": "expo start --ios",

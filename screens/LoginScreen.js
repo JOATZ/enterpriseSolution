@@ -1,7 +1,7 @@
 import { Image, Button, TextInput, Text, View, Platform } from 'react-native'
 import Constants from 'expo-constants'
 import { Formik } from 'formik'
-import placeholderLogo from '../assets/placeholder.png'
+import logo from '../assets/image/logo2nbg.png'
 
 const loginScreenStyle = {
     alignContent: 'center',
@@ -32,7 +32,7 @@ const LoginScreen = () => {
                 flex: 1
             }}
         >
-            <Image source={placeholderLogo} style={logoStyle} />
+            <Image source={logo} style={logoStyle} />
             <Formik
                 initialValues={{
                     username: '',
