@@ -10,7 +10,8 @@ module.exports = function (api) {
                     extensions: ['.ios.js', '.android.js', '.js', '.json'],
                     alias: {
                         assets: './assets',
-                        screens: './screens'
+                        screens: './screens',
+                        utils: './utils'
                     }
                 }
             ]

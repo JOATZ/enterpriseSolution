@@ -12,6 +12,8 @@
     "serverStart": "cd json-server && json-server -H 0.0.0.0 --watch db.json -p3001 -d2000"
   },
   "dependencies": {
+    "@react-navigation/bottom-tabs": "5.11.15",
+    "@react-navigation/drawer": "5.12.9",
     "@react-navigation/native": "5.9.8",
     "@react-navigation/stack": "5.14.9",
     "@reduxjs/toolkit": "^1.9.7",
