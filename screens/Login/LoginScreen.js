@@ -1,7 +1,7 @@
 import { Image, Button, TextInput, Text, View, Platform } from 'react-native'
 import Constants from 'expo-constants'
 import { Formik } from 'formik'
-import logo from '../assets/image/logo2nbg.png'
+import logo from 'assets/image/logo2nbg.png'
 
 const loginScreenStyle = {
     alignContent: 'center',

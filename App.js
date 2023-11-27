@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 
 import Main from './screens/MainComponent'
-import LoginScreen from './screens/LoginScreen'
+import LoginScreen from './screens/Login/Login'
 
 const loggedIn = false //temp for testing conditional, use redux later
 
