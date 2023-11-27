@@ -2,8 +2,8 @@ import { StatusBar } from 'expo-status-bar'
 import { StyleSheet, Text, View } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 
-import Main from './screens/MainComponent'
-import LoginScreen from './screens/Login/Login'
+import Main from 'screens/MainComponent'
+import LoginScreen from 'screens/Login/LoginScreen'
 
 const loggedIn = false //temp for testing conditional, use redux later
 

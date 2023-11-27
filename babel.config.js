@@ -6,10 +6,11 @@ module.exports = function (api) {
             [
                 'module-resolver',
                 {
-                    root: ['./'], // specify the root directory
+                    root: ['./'],
                     extensions: ['.ios.js', '.android.js', '.js', '.json'],
                     alias: {
-                        assets: './assets' // specify the alias
+                        assets: './assets',
+                        screens: './screens'
                     }
                 }
             ]
